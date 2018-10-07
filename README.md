@@ -17,7 +17,7 @@ Here’s an example ~/.path file that adds /usr/local/bin to the $PATH:
 export PATH="/usr/local/bin:$PATH"
 ```
 
-## Add custom commands without creating a new fork
+## 定制git提交
 If ~/.extra exists, it will be sourced along with the other files. You can use this to add a few custom commands without the need to fork this entire repository, or to add commands you don’t want to commit to a public repository.
 
 My ~/.extra looks something like this:
@@ -32,7 +32,7 @@ GIT_AUTHOR_EMAIL="605847529@qq.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
-## Sensible macOS defaults
+## 配置macOS
 When setting up a new Mac, you may want to set some sensible macOS defaults:
 
 ```source ~/.macos```
