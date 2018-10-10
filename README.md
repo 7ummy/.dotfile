@@ -6,21 +6,21 @@ Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles
 * https://github.com/amix/vimrc
 
 ## 安装:
-git clone git@github.com:7ummy/.dotfile.git && cd .dotfiles && source bootstrap.sh
+```git clone https://github.com/7ummy/.dotfiles.git && cd .dotfiles && source bootstrap.sh```
 
 ## 指定路径
-If ~/.path exists, it will be sourced along with the other files, before any feature testing (such as detecting which version of ls is being used) takes place.
+If `~/.path` exists, it will be sourced along with the other files, before any feature testing (such as detecting which version of ls is being used) takes place.
 
-Here’s an example ~/.path file that adds /usr/local/bin to the $PATH:
+Here’s an example `~/.path` file that adds `/usr/local/bin` to the $PATH:
 
 ```
 export PATH="/usr/local/bin:$PATH"
 ```
 
 ## 定制git提交
-If ~/.extra exists, it will be sourced along with the other files. You can use this to add a few custom commands without the need to fork this entire repository, or to add commands you don’t want to commit to a public repository.
+If `~/.extra` exists, it will be sourced along with the other files. You can use this to add a few custom commands without the need to fork this entire repository, or to add commands you don’t want to commit to a public repository.
 
-My ~/.extra looks something like this:
+My `~/.extra` looks something like this:
 
 ```
 # Git credentials
