@@ -8,6 +8,9 @@ Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles
 ## 安装:
 ```git clone https://github.com/7ummy/.dotfiles.git && cd .dotfiles && source bootstrap.sh```
 
+## 更新
+```set -- -f; source bootstrap.sh```
+
 ## 指定路径
 If `~/.path` exists, it will be sourced along with the other files, before any feature testing (such as detecting which version of ls is being used) takes place.
 
