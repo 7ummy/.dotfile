@@ -19,7 +19,7 @@ for type in Bold Light Medium Regular Retina; do
     fi;
 done
 
-if hash git 2>/dev/null; then 
+if hash fc-cache 2>/dev/null; then 
   echo "fc-cache -f"
   fc-cache -f
 else 
