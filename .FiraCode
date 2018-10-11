@@ -19,5 +19,11 @@ for type in Bold Light Medium Regular Retina; do
     fi;
 done
 
-echo "fc-cache -f"
-fc-cache -f
+if hash git 2>/dev/null; then 
+  echo "fc-cache -f"
+  fc-cache -f
+else 
+  yum install fontconfig
+  echo "fc-cache -f"
+  fc-cache -f
+fi
