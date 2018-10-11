@@ -23,7 +23,7 @@ if hash fc-cache 2>/dev/null; then
   echo "fc-cache -f"
   fc-cache -f
 else 
-  yum install fontconfig
+  sudo yum install fontconfig
   echo "fc-cache -f"
   fc-cache -f
 fi
