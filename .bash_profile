@@ -20,4 +20,6 @@ shopt -s histappend;
 shopt -s cdspell;
 
 # 登陆启用zsh
-if ( -f ~/bin/zsh ) exec ~/bin/zsh -l
+if ( -f ~/bin/zsh ) ; then
+  exec ~/bin/zsh -l
+fi
