@@ -18,3 +18,6 @@ shopt -s histappend;
 
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
+
+# 登陆启用zsh
+if ( -f ~/bin/zsh ) exec ~/bin/zsh -l
