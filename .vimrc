@@ -400,33 +400,49 @@ call plug#begin('~/.vim/plugged')
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 
-" Any valid git URL is allowed
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+" Any valid git URL is allowed,Multiple commands
+"Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+"Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
 
 " Multiple Plug commands can be written in a single line using | separators
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
-" On-demand loading
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-"Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-
 " Using a non-master branch
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
-" Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
-"Plug 'fatih/vim-go', { 'tag': '*' }
+function! BuildYCM(info)
+  " info is a dictionary with 3 fields
+  " - name:   name of the plugin
+  " - status: 'installed', 'updated', or 'unchanged'
+  " - force:  set on PlugInstall! or PlugUpdate!
+  if a:info.status == 'installed' || a:info.force
+    !./install.py
+  endif
+endfunction
 
-" Plugin options
-"Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
+Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 
 " Plugin outside ~/.vim/plugged with post-update hook
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+let g:fzf_install = 'yes | ./install'
+Plug 'junegunn/fzf', { 'do': g:fzf_install }
 
-" Unmanaged plugin (manually installed and updated)
-Plug '~/my-prototype-plugin'
+# vim交互式命令行
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+
+" NERD tree will be loaded on the first invocation of NERDTreeToggle command
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+
+" On-demand loading on both conditions
+Plug 'junegunn/vader.vim',  { 'on': 'Vader', 'for': 'vader' }
+
+" Code to execute when the plugin is lazily loaded on demand
+Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
 
 " A dark theme for Vim
 " Plug 'dracula/vim', { 'as': 'dracula' }
+
+" Unmanaged plugin (manually installed and updated)
+Plug '~/my-prototype-plugin'
 
 " Initialize plugin system
 call plug#end()
