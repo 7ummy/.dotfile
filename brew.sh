@@ -26,6 +26,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 # 常用的命令行工具安装
 brew install vim --with-override-system-vi
 brew install tree
+brew install jmeter
 
 #常用的工具包安装
 brew cask install iterm2
