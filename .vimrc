@@ -450,6 +450,9 @@ Plug 'nvie/vim-flake8'
 " a statusline plugin for vim
 Plug 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
 
+" Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
+
 " A dark theme for Vim
 " Plug 'dracula/vim', { 'as': 'dracula' }
 
