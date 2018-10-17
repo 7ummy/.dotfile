@@ -42,6 +42,8 @@ brew cask install manico
 brew cask install spectacle
 brew cask install wechat
 brew cask install slack
+# iTools 使用需要设置系统语言有英语
+brew cask install itools
 
 # Remove outdated versions from the cellar.
 brew cleanup
