@@ -444,6 +444,12 @@ Plug 'tmhedberg/SimpylFold'
 " Syntax checking hacks for vim
 Plug 'vim-syntastic/syntastic'
 
+" Flake8 plugin for Vim
+Plug 'nvie/vim-flake8'
+
+" a statusline plugin for vim
+Plug 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
+
 " A dark theme for Vim
 " Plug 'dracula/vim', { 'as': 'dracula' }
 
