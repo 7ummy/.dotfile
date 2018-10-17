@@ -438,6 +438,9 @@ Plug 'junegunn/vader.vim',  { 'on': 'Vader', 'for': 'vader' }
 " Code to execute when the plugin is lazily loaded on demand
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
 
+" No-BS Python code folding for Vim
+Plug 'tmhedberg/SimpylFold'
+
 " A dark theme for Vim
 " Plug 'dracula/vim', { 'as': 'dracula' }
 
