@@ -4,6 +4,8 @@ Backup, restore, and sync the prefs and settings for your toolbox. Your dotfiles
 ## 来源:
 * https://github.com/mathiasbynens/dotfiles
 * https://github.com/amix/vimrc
+* https://github.com/powerline/fonts
+
 
 ## 安装:
 ```git clone https://github.com/7ummy/.dotfiles.git && cd .dotfiles && source bootstrap.sh```
