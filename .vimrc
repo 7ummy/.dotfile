@@ -408,19 +408,19 @@ Plug 'junegunn/vim-easy-align'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 " Using a non-master branch
-#Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+"Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
 #function! BuildYCM(info)
   " info is a dictionary with 3 fields
   " - name:   name of the plugin
   " - status: 'installed', 'updated', or 'unchanged'
   " - force:  set on PlugInstall! or PlugUpdate!
-#  if a:info.status == 'installed' || a:info.force
-#    !./install.py
-#  endif
-#endfunction
+"  if a:info.status == 'installed' || a:info.force
+"    !./install.py
+"  endif
+"endfunction
 
-#Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
+"Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 
 " Plugin outside ~/.vim/plugged with post-update hook
 let g:fzf_install = 'yes | ./install'
