@@ -441,6 +441,9 @@ Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
 " No-BS Python code folding for Vim
 Plug 'tmhedberg/SimpylFold'
 
+" Syntax checking hacks for vim
+Plug 'vim-syntastic/syntastic'
+
 " A dark theme for Vim
 " Plug 'dracula/vim', { 'as': 'dracula' }
 
