@@ -410,7 +410,7 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 " Using a non-master branch
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
-#function! BuildYCM(info)
+"function! BuildYCM(info)
   " info is a dictionary with 3 fields
   " - name:   name of the plugin
   " - status: 'installed', 'updated', or 'unchanged'
@@ -426,7 +426,7 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 let g:fzf_install = 'yes | ./install'
 Plug 'junegunn/fzf', { 'do': g:fzf_install }
 
-# vim交互式命令行
+" vim交互式命令行
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
 " NERD tree will be loaded on the first invocation of NERDTreeToggle command
