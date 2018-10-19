@@ -437,6 +437,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 " Code to execute when the plugin is lazily loaded on demand
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
+Plug 'vim-airline/vim-airline'
 
 " No-BS Python code folding for Vim
 Plug 'tmhedberg/SimpylFold'
