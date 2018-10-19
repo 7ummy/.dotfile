@@ -433,7 +433,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 " On-demand loading on both conditions
-Plug 'junegunn/vader.vim',  { 'on': 'Vader', 'for': 'vader' }
+"Plug 'junegunn/vader.vim',  { 'on': 'Vader', 'for': 'vader' }
 
 " Code to execute when the plugin is lazily loaded on demand
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
