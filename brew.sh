@@ -27,6 +27,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 brew install vim --with-override-system-vi
 brew install tree
 brew install jmeter
+brew install mitmproxy
 brew install proxychains-ng
 
 #常用的工具包安装
