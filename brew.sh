@@ -44,6 +44,8 @@ brew cask install spectacle
 brew cask install wechat
 brew cask install slack
 brew cask install visual-studio-code
+brew cask install kindle
+brew cask install joplin
 # iTools 使用需要设置系统语言有英语
 brew cask install itools
 
