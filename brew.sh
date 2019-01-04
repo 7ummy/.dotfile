@@ -31,6 +31,7 @@ brew install mitmproxy
 brew install proxychains-ng
 
 #常用的工具包安装
+brew cask install java
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install shadowsocksx-ng
