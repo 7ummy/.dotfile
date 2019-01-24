@@ -1,4 +1,8 @@
 # 判断是否为MacOS，是则安装homebrew
+# 低版本需要安装Command Line Tools，https://developer.apple.com/downloads/index.action
+# 或者执行 
+# xcode-select -p
+# xcode-select --install
 if test "$(uname)" = "Darwin" ; then
   # MacOS
   if which brew >/dev/null 2>&1 ; then
