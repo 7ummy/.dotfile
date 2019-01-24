@@ -1,5 +1,5 @@
 # 判断是否为MacOS，是则安装homebrew
-# 低版本需要安装Command Line Tools，https://developer.apple.com/downloads/index.action
+# 低版本需要安装Command Line Tools，https://developer.apple.com/downloads/index.action https://developer.apple.com/download/more/
 # 或者执行 
 # xcode-select -p
 # xcode-select --install
