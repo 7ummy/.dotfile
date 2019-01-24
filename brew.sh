@@ -36,17 +36,18 @@ brew cask install iterm2
 brew cask install google-chrome
 brew cask install shadowsocksx-ng
 brew cask install postman
-brew cask install alfred
 brew cask install sequel-pro
 brew cask install xmind-zen
-brew cask install cheatsheet
-brew cask install manico
-brew cask install spectacle
 brew cask install wechat
 brew cask install slack
+brew cask install manico
+brew cask install spectacle
+brew cask install cheatsheet
+brew cask install alfred
 brew cask install visual-studio-code
-brew cask install kindle
-brew cask install joplin
+#brew cask install kindle
+#brew cask install joplin
+#brew cask install zeplin
 # iTools 使用需要设置系统语言有英语
 brew cask install itools
 
