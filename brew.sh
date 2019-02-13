@@ -30,6 +30,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 # 常用的命令行工具安装
 brew install vim --with-override-system-vi
 brew install tree
+brew install go
 brew install jmeter
 brew install mitmproxy
 brew install proxychains-ng
@@ -49,10 +50,10 @@ brew cask install spectacle
 brew cask install cheatsheet
 brew cask install alfred
 brew cask install visual-studio-code
-#brew cask install kindle
-#brew cask install joplin
-#brew cask install zeplin
-# iTools 使用需要设置系统语言有英语
+brew cask install kindle
+brew cask install joplin
+brew cask install zeplin
+# iTools 使用需要设置系统语言中包含有英语
 brew cask install itools
 
 # Remove outdated versions from the cellar.
