@@ -28,12 +28,13 @@ brew install coreutils
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # 常用的命令行工具安装
-brew install vim --with-override-system-vi
-brew install tree
+brew install vim
+# brew install vim --with-override-system-vi
+# brew install tree
 brew install go
 brew install jmeter
 brew install mitmproxy
-brew install proxychains-ng
+# brew install proxychains-ng
 
 #常用的工具包安装
 brew cask install java
@@ -45,13 +46,13 @@ brew cask install sequel-pro
 brew cask install xmind-zen
 brew cask install wechat
 brew cask install slack
-brew cask install manico
+# brew cask install manico
 brew cask install spectacle
 brew cask install cheatsheet
 brew cask install alfred
 brew cask install visual-studio-code
 brew cask install kindle
-brew cask install joplin
+# brew cask install joplin
 brew cask install zeplin
 brew cask install devdocs
 # iTools 使用需要设置系统语言中包含有英语
