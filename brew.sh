@@ -53,6 +53,7 @@ brew cask install visual-studio-code
 brew cask install kindle
 brew cask install joplin
 brew cask install zeplin
+brew cask install devdocs
 # iTools 使用需要设置系统语言中包含有英语
 brew cask install itools
 
