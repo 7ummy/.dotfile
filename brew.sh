@@ -35,6 +35,8 @@ brew install go
 brew install jmeter
 brew install mitmproxy
 # brew install proxychains-ng
+# MFA 二步认证
+brew install oath-toolkit
 
 #常用的工具包安装
 brew cask install java
