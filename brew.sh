@@ -34,6 +34,7 @@ brew install vim
 brew install go
 brew install jmeter
 brew install mitmproxy
+brew install hub
 # brew install proxychains-ng
 # MFA 二步认证
 brew install oath-toolkit
