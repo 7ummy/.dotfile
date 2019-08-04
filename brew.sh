@@ -63,6 +63,9 @@ brew cask install kindle
 brew cask install zeplin
 # tableplus 数据库连接
 brew cask install tableplus
+# itsycal 日历
+# brew cask install itsycal
+# handshaker 电脑管理手机
 # brew cask install handshaker
 # brew cask install joplin
 # brew cask install devdocs
