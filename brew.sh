@@ -53,7 +53,10 @@ brew cask install slack
 # brew cask install manico
 brew cask install spectacle
 brew cask install cheatsheet
+brew cask install picgo
+# alfred 收费 cerebro 开源
 brew cask install alfred
+brew cask install cerebro
 brew cask install visual-studio-code
 brew cask install kindle
 brew cask install zeplin
