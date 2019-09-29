@@ -71,6 +71,8 @@ brew cask install tableplus
 # brew cask install devdocs
 # iTools 使用需要设置系统语言中包含有英语
 brew cask install itools
+# 贴图工具
+brew cask install snipaste
 
 # 字体安装
 brew tap homebrew/cask-fonts
