@@ -5,8 +5,11 @@
 # xcode-select --install
 if test "$(uname)" = "Darwin" ; then
   # MacOS
-  if which brew >/dev/null 2>&1 ; then
+  if ! type brew >/dev/null 2>/dev/null; then
+    echo "start install homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  else
+    echo "start upgrade homebrew"
   fi
 else
   # Linux
