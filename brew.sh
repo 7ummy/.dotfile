@@ -76,6 +76,7 @@ brew cask install tableplus
 brew cask install itools
 # 贴图工具
 brew cask install snipaste
+brew cask install kap
 
 # 字体安装
 brew tap homebrew/cask-fonts
